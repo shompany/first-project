@@ -1,7 +1,6 @@
 let arrList = document.querySelector(".book-list");
 // arrList = [];
 
-
 const addBtn = document.querySelector(".add-button");
 const search = document.querySelector(".search-btn");
 
@@ -11,10 +10,10 @@ const search = document.querySelector(".search-btn");
 
 function addLiItem() {
   const liItems = document.createElement("li");
-  
-  liItems.textContent = prompt('введи название');
 
-  arrList.append(li)
+  liItems.textContent = prompt("введи название");
+
+  arrList.append(liItems);
 }
 
 addBtn.onclick = function () {
