@@ -7,39 +7,46 @@
   <title>Задача 2</title>
 </head>
 <body>
-  <header class="header">
-      <nav class="header__nav">
-        <ul class="header__nav-list">
-          <li class="header__nav-item">
-            <a href="../navigation.html" class="header___nav-link">Главная</a>
+  <div class="layout">
+    <aside class="sidebar">
+      <nav class="sidebar__nav">
+        <ul class="sidebar__nav-list">
+          <li class="sidebar__nav-item">
+            <a href="../Задача1/index.html" class="sidebar__nav-link">
+              Задача 1 "Домашняя библиотека"
+            </a>
           </li>
-          <li class="header__nav-item">
-            <a href="../Задача1/index.html" class="header___nav-link">Задача 1</a>
+          <li class="sidebar__nav-item">
+            <a href="#" class="sidebar__nav-link sidebar__nav-link--active">
+              Задача 2 "Рост учеников"
+            </a>
           </li>
-          <li class="header__nav-item">
-            <a href="index.html" class="header___nav-link">Задача 2</a>
-          </li>
-          <li class="header__nav-item">
-            <a href="../Задача3/index.html" class="header___nav-link">Задача 3</a>
+          <li class="sidebar__nav-item">
+            <a href="../Задача3/index.html" class="sidebar__nav-link">
+              Задача 3 "Корзина покупателя"
+            </a>
           </li>
         </ul>
       </nav>
-    </header>
+    </aside>
+
+    <main class="main">
       <div class="container">
-          <div class="wrap-content">
-            <h1 class="title">Рост учеников</h1>
-            <div class="wrap-btn">
-              <button class="add-button btn" type="button">Добавить
-                рост</button>
-              <button class="filter-btn btn">Фильтр</button>
-            </div>
-            <div class="list-wrap">
-              <ul class="list"></ul>
-              <ul class="filtered-list"></ul>
-            </div>
+        <div class="wrap-content">
+          <h1 class="title">Рост учеников</h1>
+          <div class="wrap-btn">
+            <button class="add-button btn" type="button">Добавить рост</button>
+            <button class="filter-btn btn" type="button">Фильтр</button>
           </div>
-        </section>
+          <div class="list-wrap">
+            <ul class="list"></ul>
+            <ul class="filtered-list"></ul>
+          </div>
+        </div>
       </div>
-    <script src="index.js"></script>
+    </main>
+  </div>
+
+  <script src="index.js"></script>
 </body>
 </html>

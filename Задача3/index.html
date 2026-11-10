@@ -1,29 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <title>Document</title>
+  <title>Задача 3</title>
 </head>
 <body>
-  <header class="header">
-      <nav class="header__nav">
-        <ul class="header__nav-list">
-          <li class="header__nav-item">
-            <a href="../navigation.html" class="header___nav-link">Главная</a>
+  <div class="layout">
+    <aside class="sidebar">
+      <nav class="sidebar__nav">
+        <ul class="sidebar__nav-list">
+          <li class="sidebar__nav-item">
+            <a href="../Задача1/index.html" class="sidebar__nav-link">
+              Задача 1 "Домашняя библиотека"
+            </a>
           </li>
-          <li class="header__nav-item">
-            <a href="../Задача1/index.html" class="header___nav-link">Задача 1</a>
+          <li class="sidebar__nav-item">
+            <a href="../Задача2/index.html" class="sidebar__nav-link">
+              Задача 2 "Рост учеников"
+            </a>
           </li>
-          <li class="header__nav-item">
-            <a href="../Задача2/index.html" class="header___nav-link">Задача 2</a>
-          </li>
-          <li class="header__nav-item">
-            <a href="index.html" class="header___nav-link">Задача 3</a>
+          <li class="sidebar__nav-item">
+            <a href="#" class="sidebar__nav-link sidebar__nav-link--active">
+              Задача 3 "Корзина покупателя"
+            </a>
           </li>
         </ul>
       </nav>
-    </header>
+    </aside>
+
+    <main class="main">
+      <div class="container">
+        <div class="wrap-content">
+          <h1 class="title">Корзина покупателя</h1>
+          <button class="add-button btn" type="button">Добавить товар</button>
+          <ul class="list"></ul>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="index.js"></script>
 </body>
 </html>

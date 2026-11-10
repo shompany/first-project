@@ -4,39 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Задача 1</title>
+    <title>Задача 1 "Домашняя библиотека"</title>
   </head>
   <body>
-    <header class="header">
-      <nav class="header__nav">
-        <ul class="header__nav-list">
-          <li class="header__nav-item">
-            <a href="../navigation.html" class="header__nav-link">Главная</a>
-          </li>
-          <li class="header__nav-item">
-            <a href="index.html" class="header__nav-link">Задача 1</a>
-          </li>
-          <li class="header__nav-item">
-            <a href="../Задача2/index.html" class="header__nav-link">Задача 2</a>
-          </li>
-          <li class="header__nav-item">
-            <a href="../Задача3/index.html" class="header__nav-link">Задача 3</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-      <div class="container">
-          <div class="wrap-content">
-            <h1 class="title">Домашня библиотека</h1>
-            <div class="wrap-btn">
-              <button class="add-button btn" type="button">Добавить книгу</button>
-              <button class="search-btn btn">Найти книгу</button>
-            </div>
-            <ul class="book-list"></ul>
+    <div class="layout">
+      <aside class="sidebar">
+        <nav class="sidebar__nav">
+          <ul class="sidebar__nav-list">
+            <li class="sidebar__nav-item">
+              <a href="#" class="sidebar__nav-link sidebar__nav-link--active">
+                Задача 1 «Домашняя библиотека»
+              </a>
+            </li>
+            <li class="sidebar__nav-item">
+              <a href="../Задача2/index.html" class="sidebar__nav-link">
+                Задача 2 «Рост учеников»
+              </a>
+            </li>
+            <li class="sidebar__nav-item">
+              <a href="../Задача3/index.html" class="sidebar__nav-link">
+                Задача 3 «Корзина покупателя»
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+
+      <main class="main">
+        <div class="wrap-content">
+          <h1 class="title">Домашняя библиотека</h1>
+
+          <div class="wrap-btn">
+            <button class="add-button btn" type="button">Добавить книгу</button>
+            <button class="search-btn btn" type="button">Найти книгу</button>
           </div>
+
+          <ul class="book-list"></ul>
         </div>
-        </section>
-    </main>
+      </main>
+    </div>
+
     <script src="index.js"></script>
   </body>
 </html>

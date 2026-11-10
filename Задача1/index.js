@@ -58,12 +58,10 @@ search.addEventListener("click", () => {
 
   const items = bookList.querySelectorAll("li");
 
-// снять подсветку со всех
 for (let i = 0; i < items.length; i++) {
   items[i].classList.remove("found");
 }
 
-// подсветить найденный
 if (foundIndex !== -1) {
   items[foundIndex].classList.add("found");
 }
