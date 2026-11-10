@@ -1,5 +1,5 @@
 const heightOfStudArr = [165, 178, 157, 194, 205];
-
+const filterList =[]
 const list = document.querySelector(".list");
 const addBtn = document.querySelector(".add-button");
 const search = document.querySelector(".filter-btn");
@@ -34,4 +34,13 @@ addBtn.addEventListener("click", () => {
   fillList(heightOfStudArr, list);
 });
 
+const addFilter = promt("Введите число для фильтрации")
+
+function filterHeight(arr, num) {
+  for(const result of arr) {
+    if(arr >= num) {
+      
+    }
+  }
+}
 
